@@ -15,5 +15,17 @@ cumberlan = discord.Client()
 # example, the load_token() must be defined. Use Cumberlan as a good reference
 # point for it.
 
+@cumberlan.event
+async def on_ready():
+    print("Logged in as")
+    print(cumberlan.user.name)
+    print(cumberlan.user.id)
+    print('------')
+
+def load_token():
+    """Loads the Discord API authentication token."""
+    with open(TOKEN_FILE, "r") as token_file:
+        return token_file.read().strip()
+
 # Initializing the bot
 cumberlan.run(load_token())
