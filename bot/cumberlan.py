@@ -16,6 +16,18 @@ cumberlan = discord.Client()
 # point for it.
 
 @cumberlan.event
+async def on_message(message):
+    """Check for commands after each new message."""
+
+    # Skips messages sent by Cumberlan
+    if message.author == cumberlan.user:
+        return
+
+    if message.content.startswith("$hello"):
+        msg = "Hello {0.author.mention}".format(message)
+        await cumberlan.send_message(message.channel, msg)
+
+@cumberlan.event
 async def on_ready():
     print("Logged in as")
     print(cumberlan.user.name)
