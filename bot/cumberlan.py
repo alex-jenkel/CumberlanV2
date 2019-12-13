@@ -2,7 +2,7 @@ import discord
 
 # NEED to obtain this Discord token for the bot. Will probably not work until
 # it has been obtained and placed in the below file
-TOKEN_FILE = "data/discord_bot_token.txt"
+TOKEN_FILE = "data/token/discord.token"
 
 # Creating a bot instance
 cumberlan = discord.Client()
