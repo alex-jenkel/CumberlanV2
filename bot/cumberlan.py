@@ -109,4 +109,4 @@ def load_token():
 
 # Initializing the bot
 
-cumberlan.run(load_token())
+cumberlan.run('NTc1MTY2NDg5ODI5NTcyNjE4.XfgNUg.KJkp_4Qc24IOgIfv9II8hkwL9bY')
