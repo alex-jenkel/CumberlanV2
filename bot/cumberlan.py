@@ -64,7 +64,7 @@ async def on_message(message):
             elif 'friends' in message.content:
                 await message.channel.send("Uh, you don't get to bring friends...")
             
-            elif 'CIA' in message.content.lower():
+            elif 'cia' in message.content.lower():
                 await message.channel.send("<:ciaemote:581640683681742869>")
 
     except Exception as error:
