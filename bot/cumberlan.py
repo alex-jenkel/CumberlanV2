@@ -63,6 +63,9 @@ async def on_message(message):
             # Generic substring detection tests, will be removed later
             elif 'friends' in message.content:
                 await message.channel.send("Uh, you don't get to bring friends...")
+            
+            elif 'CIA' in message.content.lower():
+                await message.channel.send("<:ciaemote:581640683681742869>")
 
     except Exception as error:
         print(error, flush = True)
