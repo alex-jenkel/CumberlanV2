@@ -46,6 +46,11 @@ BIGGUY4U = {
     "he didnt fly so good who wants to try next"
                                       : "Tell me about Bane! Why does he wear the mask?",
 
+    "tell me about bane why does he wear the mask"
+                                      : "A lot of loyalty for a hired gun!",
+    
+    "why does he wear the mask"       : "A lot of loyalty for a hired gun!",
+
     "lotta loyalty for a hired gun"   : "Or perhaps he's wondering why someone would shoot a man before throwing him out of a plane.",
 
     "a lot of loyalty for a hired gun": "Or perhaps he's wondering why someone would shoot a man before throwing him out of a plane.",
@@ -83,7 +88,7 @@ BIGGUY4U = {
 
     "of course"                       : "Dr. Pavel refused our offer in favor of yours, we had to find out what he told you.",
 
-    "dr pavel refused our offer in favor of yours, we had to find out what he told you"
+    "dr pavel refused our offer in favor of yours we had to find out what he told you"
                                       : "Nothing! I said Nothing!",
 
     "nothing i said nothing"          : "Well congratulations, you got yourself caught! (Sir?)",
@@ -115,5 +120,5 @@ BIGGUY4U = {
 
     "the fire rises"                  : "Calm down, Doctor. Now is not the time for fear... That comes later!",
 
-    "cia"                             : ":ciaemote:"
+    "cia"                             : "<:ciaemote:581640683681742869>"
 }

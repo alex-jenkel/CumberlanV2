@@ -1,5 +1,6 @@
 import re                        # regex stuff
 import discord
+import discord.utils
 from baneposting import BIGGUY4U
 from discord.ext import commands
 
@@ -46,6 +47,7 @@ async def on_message(message):
         if message.content.startswith("$"):
             await cumberlan.process_commands(message)
 
+
         # Checks if message is a Banepost
         else:
             # Scrub the message
@@ -58,30 +60,13 @@ async def on_message(message):
             if new_banepost is not None:
                 await message.channel.send(new_banepost)
 
+            # Generic substring detection tests, will be removed later
+            elif 'friends' in message.content:
+                await message.channel.send("Uh, you don't get to bring friends...")
+
     except Exception as error:
         print(error, flush = True)
 
-
-#NOTE: next two commands will probably be removed later
-# They are only in for testing purposes
-
-# Loads a cog
-@cumberlan.command()
-async def load(cog):
-    try:
-        cumberlan.load_extension(cog)
-        print('Test {}'.format(cog), flush = True)
-    except Exception as error:
-        print('Error {}'.format(cog, error), flush = True)
-
-# Unloads a cog
-@cumberlan.command()
-async def unload(cog):
-    try:
-        cumberlan.unload_extension(cog)
-        print('unTest {}'.format(cog))
-    except Exception as error:
-        print('Error {}'.format(cog, error), flush = True)
 
 # Hello command
 @cumberlan.command()
@@ -109,4 +94,4 @@ def load_token():
 
 # Initializing the bot
 
-cumberlan.run('NTc1MTY2NDg5ODI5NTcyNjE4.XfgNUg.KJkp_4Qc24IOgIfv9II8hkwL9bY')
+cumberlan.run(load_token())
