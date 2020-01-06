@@ -5,8 +5,7 @@ CumberlanV2
 
 Developers
 ----------
-::
-    Incapamentum ::
-    Dr. Jenkel ::
-    LargeMan ::
-    PotassiumPowder
+-Incapamentum
+-Dr. Jenkel
+-LargeMan
+-PotassiumPowder
