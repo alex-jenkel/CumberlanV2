@@ -22,3 +22,4 @@ Features Thus Far
 - Creating sentences, either in writing or through voice chat, from dictionaries. **(Not implemented as of yet).**
 - Creating the ability to roast anyone on comand. **(Not implemented as of yet).**
 - Anytime that Donald J. Trump posts a tweet, it is sent to the server chat. **(Not implemented as of yet).**
+- BANEPOSTING: Detects specific keywords that replies back with either a text response, or an emoji.
