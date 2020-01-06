@@ -19,5 +19,6 @@ have in a server, similar to the `Toddbot Discord bot <https://top.gg/bot/461265
 
 Features Thus Far
 -----------------
-- Creating sentences, either in writing or through voice chat, from dictionaries.
-- Creating the ability to roast anyone on comand.
+- Creating sentences, either in writing or through voice chat, from dictionaries. **(Not implemented as of yet).**
+- Creating the ability to roast anyone on comand. **(Not implemented as of yet).**
+- Anytime that Donald J. Trump posts a tweet, it is sent to the server chat. **(Not implemented as of yet).**
