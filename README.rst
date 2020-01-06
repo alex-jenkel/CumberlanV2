@@ -16,3 +16,8 @@ Purpose
 To lead development of a Discord bot that includes a number of features intended to be fun without much of a real,
 tangible purpose. It is essentially a bot with no real use or purpose outside of just having it to be enjoyable to
 have in a server, similar to the `Toddbot Discord bot <https://top.gg/bot/461265486655520788>`_.
+
+Features Thus Far
+-----------------
+- Creating sentences, either in writing or through voice chat, from dictionaries.
+- Creating the ability to roast anyone on comand.
