@@ -1,0 +1,7 @@
+{
+    "python.linting.banditEnabled": true,
+    "python.linting.pylintPath": "C:\\ProgramData\\Python37\\Scripts\\pylint.exe",
+    "python.pythonPath": "C:\\ProgramData\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false
+}
